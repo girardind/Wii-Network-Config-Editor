@@ -2652,7 +2652,7 @@ if (chosenmenu==5){
 		if(wpaddown & WPAD_BUTTON_B || paddown & PAD_BUTTON_B ) { //if B wiimote or B gamecube :
 			chosenmenu=0;
 		}
-		if((wpaddown & WPAD_BUTTON_HOME || paddown & PAD_BUTTON_START) && (wpaddown & WPAD_BUTTON_A || paddown & PAD_BUTTON_A)) { 
+		if(wpaddown & WPAD_BUTTON_A || paddown & PAD_BUTTON_A) { 
 				chosenmenu=6;
 		}		
 		
